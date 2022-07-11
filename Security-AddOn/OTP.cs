@@ -16,7 +16,7 @@ namespace Security_AddOn
 {
     public partial class OTP : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=sqlserver.dynamicdna.co.za;Initial Catalog=User-Management-System-Lerato;Persist Security Info=True;User ID=BBD;Password=***********");
+        SqlConnection con = new SqlConnection("Data Source=sqlserver.dynamicdna.co.za;Initial Catalog=OTP-Lerato;Persist Security Info=True;User ID=BBD;Password=***********");
         public OTP()
         {
             InitializeComponent();
